@@ -1,0 +1,32 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+}
+
+.title {
+  /*text-shadow: rgba(37, 51, 62, 0.9) 0px 0px 2px;*/
+  text-shadow: rgba(255, 255, 255, 0.9) 0px 0px 7px;
+}
+
+.reload {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.bold_italic {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
